@@ -1,0 +1,30 @@
+.postheader {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+
+  img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .user p {
+    color: #d3d3d3;
+  }
+}
+
+.postheader::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #d3d3d3;
+}

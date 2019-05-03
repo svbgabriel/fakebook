@@ -1,0 +1,19 @@
+.postbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+
+  .post {
+    border: 1px solid #d3d3d3;
+    width: 500px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+
+    .content {
+      word-wrap: break-word;
+    }
+  }
+}
